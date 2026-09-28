@@ -2,11 +2,8 @@ import React from 'react';
 
 function PricingPage() {
     return ( 
-        <>
-          <Hero/>
-          <Brokerage/>
-        </>
-      
+
+      <div></div>
      );
 }
 
