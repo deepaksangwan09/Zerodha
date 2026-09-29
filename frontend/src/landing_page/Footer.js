@@ -85,7 +85,7 @@ function Footer() {
             <a href="" style={{textDecoration:"none" }}>BSE</a> 
             <a href="" style={{textDecoration:"none"}}>MCX</a>
             <a href="" style={{textDecoration:"none"}}>NSE</a>
-            <a href="" style={{textDecoration:"none"}}>Tems & conditions</a>
+            <a href="" style={{textDecoration:"none"}}>Terms & conditions</a>
             <a href="" style={{textDecoration:"none"}}>Policies & Procedures</a>
             <a href="" style={{textDecoration:"none"}}>Privacy policy</a>
             <a href="" >Disclousers</a>
