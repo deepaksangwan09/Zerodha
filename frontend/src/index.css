@@ -39,3 +39,9 @@ code {
   border-radius: 10px;
   border: none;
 }
+
+#supportSearch a{
+  display: inline-block;
+  margin: 10px 0;
+  margin-inline-start: 20px ;
+}
