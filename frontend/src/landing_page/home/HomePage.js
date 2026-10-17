@@ -4,9 +4,7 @@ import Pricing from './Pricing';
 import Stats from './Stats';
 import Education from './Education';
 import Awards from './Awards';
-
 import OpenAccount from '../OpenAccount'; 
-
 
 function HomePage() {
     return (  
@@ -17,7 +15,6 @@ function HomePage() {
            <Pricing/>
            <Education/>
            <OpenAccount/>
-          
          </>
     );
 }

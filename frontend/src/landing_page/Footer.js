@@ -11,11 +11,11 @@ function Footer() {
                 </div>
                 <div className='col'>
                     <p>Company</p>
-                        <a href='#'>About </a><br />
-                        <a href='#'>Products </a><br />
-                        <a href='#'>Pricing </a><br />
-                        <a href='#'>Careers </a><br />
-                        <a href='#'>Zerodha.tech </a><br />
+                        <a href='#' style={{textDecoration:"none" }}>About </a><br />
+                        <a href='#' style={{textDecoration:"none" }}>Products </a><br />
+                        <a href='#' style={{textDecoration:"none" }}>Pricing </a><br />
+                        <a href='#' style={{textDecoration:"none" }}>Careers </a><br />
+                        <a href='#' style={{textDecoration:"none" }}>Zerodha.tech </a><br />
                         <a href='#'>Press & Media </a><br />
                         <a href='#'>Zerodha cares (CSR) </a><br />
                 </div>
