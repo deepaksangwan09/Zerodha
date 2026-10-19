@@ -15,7 +15,7 @@ const MONGO_URL = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(cors());
+app.use(cors()); 
 app.use(bodyParser.json());
 
 
@@ -216,7 +216,12 @@ app.get("/allPositions", async (req, res) => {
 
 
 app.post("/newOrder", async (req, res) => {
-  let newOrder = new OrdersModel({});
+  let newOrder = new OrdersModel({
+    name: req.body.name, 
+    qty:req.body.qty,
+    price:req.body.price,
+    mode:req.body.mode,
+  });
   newOrder.save();
 
   res.send("Order saved"); 
