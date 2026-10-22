@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+dashboard/node_modules/
+
+# Production / Build outputs
+build/
+dist/
+frontend/build/
+frontend/dist/
+dashboard/build/
+dashboard/dist/
+
+# Local env files and caches
+.env
+.env.local
+.infrastructure/
+.cache/
+.parcel-cache/
+npm-debug.log*
+SS
